@@ -14,10 +14,10 @@ body {
 	color: #fff;
 }
 
-.section-header__h2 {
+.section-header__top {
 }
 
-.section-header__top {
+.section-header__h2 {
 }
 
 .button {
@@ -41,6 +41,6 @@ body {
 	color: #fff;
 }
 
-.hero_button {
+.hero__button {
 	margin-top: 32px;
 }
