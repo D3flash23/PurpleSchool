@@ -1,47 +1,23 @@
 :root {
 	--color-primary: #6c38cc;
-	--space-10: 10px;
-}
+	--color-text: #fafafa;
+	--color-link-hover: #afb2bf;
+	--color-sroke: #4d5064;
+	--color-bg: #16171d;
+	--color-bg-light: #2e2d3d;
+	--color-bg-medium: #1e1f29;
 
-html {
-	--color-primary: green;
+	--border-8: 8px;
 }
 
 body {
-	background: #161710;
-}
-
-.section-header {
-	color: #fff;
-}
-
-.section-header__top {
-}
-
-.section-header__h2 {
-}
-
-.button {
-	padding: 16px 32px;
+	background: var(--color-bg);
+	margin: 0;
+	font-family: Fira Sans;
+	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 120%;
-	border-radius: 10px;
-	background: none;
-	border: none;
-	margin-bottom: var(--space-10);
 }
 
-.button_primary {
-	background: var(--color-primary, red);
-	color: #fff;
-}
-
-.button_ghost {
-	border: 1px solid #4d5064;
-	color: #fff;
-}
-
-.hero__button {
-	margin-top: 32px;
+a {
+	text-decoration: none;
 }
