@@ -4,7 +4,7 @@
 }
 
 .header__wrapper {
-	max-width: calc(1220px - 48px);
+	max-width: var(--layout-width);
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -45,14 +45,12 @@
 	.header__logo {
 		max-width: 174px;
 	}
-	.header__login {
-		display: none;
-	}
-	.header__mobile-menu-button {
-		display: block;
+}
+@media (max-width: 640px) {
+	.header__wrapper {
+		padding: 30px 24px;
 	}
 }
-
 /* Menu */
 .menu {
 	list-style: none;
