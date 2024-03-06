@@ -3,7 +3,12 @@
 .section__light {
 	background-color: var(--color-bg-medium);
 }
-
+.section__wrapper {
+	max-width: var(--layout-width);
+	margin: 0px auto;
+	align-items: center;
+	padding: 100px 24px;
+}
 /* button */
 .hero__cta {
 	display: flex;
@@ -63,4 +68,40 @@
 
 .social-icons__icon:hover {
 	background-color: var(--color-sroke);
+}
+
+/* Headling */
+
+.headling {
+	margin-bottom: 32px;
+}
+
+.headling__top {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: var(--color-secondary);
+	margin-bottom: 8px;
+}
+
+.headling__button {
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 120%;
+	margin: 0 0 32px 0;
+	color: var(--color-text);
+}
+
+/* paragraph */
+
+.paragraph {
+	font-weight: 400;
+	font-style: 18px;
+	line-height: 150%;
+	color: var(--color-text);
+	max-width: 700px;
+}
+
+.paragraph_32 {
+	margin-bottom: 32px;
 }
