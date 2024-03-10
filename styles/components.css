@@ -105,3 +105,18 @@
 .paragraph_32 {
 	margin-bottom: 32px;
 }
+
+/* card */
+
+.card {
+	background: var(--color-bg-medium);
+	border-radius: var(--border-10);
+}
+
+/* post-wrapper */
+
+.post-wrapper {
+	margin-top: 48px;
+	display: flex;
+	gap: 36px;
+}
